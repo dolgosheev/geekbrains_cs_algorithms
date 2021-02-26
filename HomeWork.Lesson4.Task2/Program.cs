@@ -52,11 +52,11 @@ namespace HomeWork.Lesson4.Task2
             }
 
 
-            var i_max = matrix.GetUpperBound(0);
-            var j_max = matrix[i_max].GetUpperBound(0);
+            var iMax = matrix.GetUpperBound(0);
+            var jMax = matrix[iMax].GetUpperBound(0);
 
 
-            return int.Parse(matrix[i_max][j_max]);
+            return int.Parse(matrix[iMax][jMax]);
 
         }
 
