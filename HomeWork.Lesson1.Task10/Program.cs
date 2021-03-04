@@ -13,12 +13,12 @@ namespace HomeWork.Lesson1.Task10
     {
         private static void Main()
         {
-            var n = 23;
+            var n = 47;
             int counter = default;
 
             while (n > 0)
             {
-                if ((n % 10) == 2)
+                if ((n % 10 % 2) == 0)
                     counter++;
                 n /= 10;
             }
