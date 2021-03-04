@@ -13,8 +13,8 @@ namespace HomeWork.Lesson1.Task9
     {
         private static void Main()
         {
-            var n = 23;
-            var k = 12;
+            var n = 4;
+            var k = 2;
 
             int balance = default;
 
