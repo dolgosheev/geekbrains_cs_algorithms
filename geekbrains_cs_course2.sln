@@ -19,17 +19,23 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork.Lesson1.Task7", "H
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork.Lesson1.Task8", "HomeWork.Lesson1.Task8\HomeWork.Lesson1.Task8.csproj", "{DA8A80BE-F2B2-49B2-B704-53AA5549148B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Lesson1.Task9", "HomeWork.Lesson1.Task9\HomeWork.Lesson1.Task9.csproj", "{A38B7C14-5D19-428F-AFA7-3E8A120294DC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork.Lesson1.Task9", "HomeWork.Lesson1.Task9\HomeWork.Lesson1.Task9.csproj", "{A38B7C14-5D19-428F-AFA7-3E8A120294DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Lesson1.Task10", "HomeWork.Lesson1.Task10\HomeWork.Lesson1.Task10.csproj", "{603945B6-DFA3-4740-B83C-7AC01AC5289C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork.Lesson1.Task10", "HomeWork.Lesson1.Task10\HomeWork.Lesson1.Task10.csproj", "{603945B6-DFA3-4740-B83C-7AC01AC5289C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Lesson1.Task11", "HomeWork.Lesson1.Task11\HomeWork.Lesson1.Task11.csproj", "{25755DE1-FD06-497A-804D-9CEFC7314818}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork.Lesson1.Task11", "HomeWork.Lesson1.Task11\HomeWork.Lesson1.Task11.csproj", "{25755DE1-FD06-497A-804D-9CEFC7314818}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Lesson1.Task12", "HomeWork.Lesson1.Task12\HomeWork.Lesson1.Task12.csproj", "{2EB53DFD-96F0-450E-879C-6955F1E964F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork.Lesson1.Task12", "HomeWork.Lesson1.Task12\HomeWork.Lesson1.Task12.csproj", "{2EB53DFD-96F0-450E-879C-6955F1E964F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Lesson1.Task13", "HomeWork.Lesson1.Task13\HomeWork.Lesson1.Task13.csproj", "{C557B9CD-81B2-470C-A817-5DEB0547B6C1}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork.Lesson1.Task13", "HomeWork.Lesson1.Task13\HomeWork.Lesson1.Task13.csproj", "{C557B9CD-81B2-470C-A817-5DEB0547B6C1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Lesson1.Task14", "HomeWork.Lesson1.Task14\HomeWork.Lesson1.Task14.csproj", "{CF69E718-2CA6-45A1-A30C-6283028042F6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HomeWork.Lesson1.Task14", "HomeWork.Lesson1.Task14\HomeWork.Lesson1.Task14.csproj", "{CF69E718-2CA6-45A1-A30C-6283028042F6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Lesson2.Task1", "HomeWork.Lesson2.Task1\HomeWork.Lesson2.Task1.csproj", "{C149F21D-2CF9-4999-9C67-DDDC671EF2AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Lesson2.Task2", "HomeWork.Lesson2.Task2\HomeWork.Lesson2.Task2.csproj", "{C30957A8-9CF5-42FD-AF4D-578ECFC5407C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HomeWork.Lesson2.Task3", "HomeWork.Lesson2.Task3\HomeWork.Lesson2.Task3.csproj", "{BC00624E-7D59-4C9C-A566-4617D8E5FB0C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -93,6 +99,18 @@ Global
 		{CF69E718-2CA6-45A1-A30C-6283028042F6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CF69E718-2CA6-45A1-A30C-6283028042F6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CF69E718-2CA6-45A1-A30C-6283028042F6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C149F21D-2CF9-4999-9C67-DDDC671EF2AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C149F21D-2CF9-4999-9C67-DDDC671EF2AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C149F21D-2CF9-4999-9C67-DDDC671EF2AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C149F21D-2CF9-4999-9C67-DDDC671EF2AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C30957A8-9CF5-42FD-AF4D-578ECFC5407C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C30957A8-9CF5-42FD-AF4D-578ECFC5407C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C30957A8-9CF5-42FD-AF4D-578ECFC5407C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C30957A8-9CF5-42FD-AF4D-578ECFC5407C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC00624E-7D59-4C9C-A566-4617D8E5FB0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC00624E-7D59-4C9C-A566-4617D8E5FB0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC00624E-7D59-4C9C-A566-4617D8E5FB0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC00624E-7D59-4C9C-A566-4617D8E5FB0C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
