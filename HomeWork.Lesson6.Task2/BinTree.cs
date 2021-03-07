@@ -7,12 +7,14 @@ namespace HomeWork.Lesson6.Task2
         private int _maxLevel;
         private BinNode<T> _rootNode;
 
+        // Filler
         public BinTree(params T[] data)
         {
             foreach (var r in data)
                 Add(new BinNode<T>(r));
         }
 
+        // Add member to root node
         public BinNode<T> Add(BinNode<T> node, BinNode<T> currentNode = null)
         {
             if (_rootNode == null)
@@ -35,13 +37,15 @@ namespace HomeWork.Lesson6.Task2
         }
 
 
-
+        // Remove method | logic
         public void Remove(BinNode<T> node)
         {
             if (node == null)
                 return;
 
             var currentNodeSide = node.NodeSide;
+
+            // delete if has not contains subnodes
             if (node.LeftNode == null && node.RightNode == null)
             {
                 if (currentNodeSide == Side.Left)
@@ -49,6 +53,7 @@ namespace HomeWork.Lesson6.Task2
                 else
                     node.ParentNode.RightNode = null;
             }
+            // Right to removal site ( if there is no left )
             else if (node.LeftNode == null)
             {
                 if (currentNodeSide == Side.Left)
@@ -58,6 +63,7 @@ namespace HomeWork.Lesson6.Task2
 
                 node.RightNode.ParentNode = node.ParentNode;
             }
+            // Left to removal site ( if there is no right )
             else if (node.RightNode == null)
             {
                 if (currentNodeSide == Side.Left)
@@ -67,6 +73,7 @@ namespace HomeWork.Lesson6.Task2
 
                 node.LeftNode.ParentNode = node.ParentNode;
             }
+            // If both are present, right to remove, left to right
             else
             {
                 switch (currentNodeSide)
@@ -98,6 +105,8 @@ namespace HomeWork.Lesson6.Task2
             var foundNode = FindNode(data);
             Remove(foundNode);
         }
+
+        // Find member
         public BinNode<T> FindNode(T data, BinNode<T> startWithNode = null)
         {
             startWithNode = startWithNode ?? _rootNode;
@@ -112,12 +121,16 @@ namespace HomeWork.Lesson6.Task2
                         ? null
                         : FindNode(data, startWithNode.RightNode);
         }
+
+        // method for public access
         public void PrintTree()
         {
             Console.WriteLine("Output \"pseudoTree\"");
             PrintTree(_rootNode);
         }
-        public void PrintTree(BinNode<T> startNode, string indent = "", Side? side = null)
+
+        // Encapsulated overloaded nethod | show tree
+        private void PrintTree(BinNode<T> startNode, string indent = "", Side? side = null)
         {
             if (startNode != null)
             {
@@ -129,10 +142,14 @@ namespace HomeWork.Lesson6.Task2
                 Console.Write($"{startNode.Level}|");
                 Console.WriteLine($"{indent}{nodeSide}{delim}{startNode.Data}{maxLevel}{nodeLevel}");
                 indent += new string(' ', indentStep);
+                // recursive call for left branch
                 PrintTree(startNode.LeftNode, indent, Side.Left);
+                // recursive call for right branch
                 PrintTree(startNode.RightNode, indent, Side.Right);
             }
         }
+
+        // Walk tree variants
         public void PrintTreeСircumvent(Type type)
         {
             switch ((int)type)
@@ -155,6 +172,8 @@ namespace HomeWork.Lesson6.Task2
             }
             Console.WriteLine("");
         }
+
+        // walk root-left-right
         public void PrintTreeRootLr(BinNode<T> startNode)
         {
             if (startNode != null)
@@ -164,6 +183,8 @@ namespace HomeWork.Lesson6.Task2
                 PrintTreeRootLr(startNode.RightNode);
             }
         }
+
+        // walk left-root-right
         public void PrintTreeLRootR(BinNode<T> startNode)
         {
             if (startNode != null)
@@ -173,6 +194,8 @@ namespace HomeWork.Lesson6.Task2
                 PrintTreeLRootR(startNode.RightNode);
             }
         }
+
+        // walk left-right-root
         public void PrintTreeLrRoot(BinNode<T> startNode)
         {
             if (startNode != null)

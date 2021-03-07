@@ -2,7 +2,7 @@
  * Author : Alexander Dolgosheev
  * Github : https://github.com/dolgosheev
  * Mailto : alexanderdolgosheev@gmail.com
- * Task 5
+ * Task 1
  */
 
 using System;
